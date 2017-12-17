@@ -13,11 +13,13 @@ public class StreamOfdata {
 			"Tuesday","Wednesday","Thursday"
 	};
 	
-	static List<Integer> days= new ArrayList() {{
+	static List<Integer> days= new ArrayList() {
+		{
 		for(int i=0;i<7;i++)
 			add(i);
 		
-	}};
+		}
+	};
 	
 	public static void main(String[] args) {
 		
